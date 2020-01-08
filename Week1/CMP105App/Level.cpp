@@ -3,7 +3,7 @@
 Level::Level(sf::RenderWindow* hwnd)
 {
 	window = hwnd;
-	
+
 	// initialise game objects
 	rect.setSize(sf::Vector2f(50, 5));
 	rect.setPosition(100, 100);
